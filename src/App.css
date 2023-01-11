@@ -75,9 +75,8 @@ p {
 }
 
 .praia-2 {
-  width: 370px;
-  height: 231px;
-  margin-left: -35px;
+ display: flex;
+ justify-content: flex-start;
 }
 
 .praia-2 img {
@@ -95,10 +94,8 @@ p {
 }
 
 .sala-3 {
-  width: 370px;
-  height: 231px;
-  margin-top: 15px;
-  margin-left: -35px;
+  display: flex;
+ justify-content: flex-start;
 }
 
 .sala-3 img {
@@ -116,10 +113,8 @@ p {
 }
 
 .quarto-casal {
-  width: 370px;
-  height: 231px;
-  margin-top: 15px;
-  margin-left: -35px;
+  display: flex;
+ justify-content: flex-start;
 }
 
 .quarto-casal img {
@@ -144,9 +139,11 @@ p {
 }
 
 .texto-praia {
-  padding-right: 36rem;
-  margin-left: -2rem;
-  margin-top: 1rem;
+  padding-right: 36%;
+  padding-left: 3%;
+  margin-right: 12%;
+  margin-left: -2%;
+  margin-top: 2%;
   text-align: start;
 }
 
@@ -159,9 +156,11 @@ p {
 }
 
 .texto-sala3 {
-  padding-right: 36rem;
-  margin-left: -2rem;
-  margin-top: 1rem;
+  padding-right: 36%;
+  padding-left: 3%;
+  margin-right: 12%;
+  margin-left: -2%;
+  margin-top: 2%;
   text-align: start;
 }
 
@@ -174,9 +173,11 @@ p {
 }
 
 .texto-quarto-casal {
-  padding-right: 36rem;
-  margin-left: -2rem;
-  margin-top: 1rem;
+  padding-right: 36%;
+  padding-left: 3%;
+  margin-right: 12%;
+  margin-left: -2%;
+  margin-top: 2%;
   text-align: start;
 }
 
