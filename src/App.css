@@ -20,6 +20,12 @@ button {
   background-color: #f5f0db;
 }
 
+p {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .bg {
   display: flex;
   justify-content: center;
@@ -71,7 +77,6 @@ button {
 .praia-2 {
   width: 370px;
   height: 231px;
-  margin-top: 15px;
   margin-left: -35px;
 }
 
@@ -80,10 +85,9 @@ button {
 }
 
 .sala-2 {
-  width: 370px;
-  height: 231px;
-  margin-top: 50px;
-  margin-left: 500px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 60px;
 }
 
 .sala-2 img {
@@ -102,10 +106,9 @@ button {
 }
 
 .cozinha {
-  width: 370px;
-  height: 231px;
-  margin-top: 50px;
-  margin-left: 500px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 60px;
 }
 
 .cozinha img {
@@ -124,10 +127,9 @@ button {
 }
 
 .quarto-solteiro {
-  width: 370px;
-  height: 231px;
-  margin-top: 50px;
-  margin-left: 500px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 60px;
 }
 
 .quarto-solteiro img {
@@ -142,45 +144,47 @@ button {
 }
 
 .texto-praia {
-  padding-right: 500px;
-  margin-left: -25px;
-  margin-top: 10px;
+  padding-right: 36rem;
+  margin-left: -2rem;
+  margin-top: 1rem;
   text-align: start;
-  box-sizing: border-box;
 }
 
 .texto-sala2 {
-  margin-left: 500px;
+  padding-left: 30%;
+  margin-left: 20%;
   margin-top: 10px;
   margin-bottom: 45px;
   text-align: start;
 }
 
 .texto-sala3 {
-  padding-right: 500px;
-  margin-left: -25px;
-  margin-top: 10px;
+  padding-right: 36rem;
+  margin-left: -2rem;
+  margin-top: 1rem;
   text-align: start;
 }
 
 .texto-cozinha {
-  margin-left: 500px;
+  padding-left: 30%;
+  margin-left: 20%;
   margin-top: 10px;
   margin-bottom: 45px;
   text-align: start;
 }
 
 .texto-quarto-casal {
-  padding-right: 500px;
-  margin-left: -25px;
-  margin-top: 10px;
+  padding-right: 36rem;
+  margin-left: -2rem;
+  margin-top: 1rem;
   text-align: start;
 }
 
 .texto-quarto-solteiro {
-  margin-left: 500px;
+  padding-left: 30%;
+  margin-left: 20%;
   margin-top: 10px;
-  margin-bottom: -40px;
+  margin-bottom: 45px;
   text-align: start;
 }
 
