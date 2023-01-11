@@ -1,38 +1,216 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 500;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: linear-gradient(
+      #73C9E1 5%,
+      #f9edc0 15%   
+  );
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  cursor: pointer;
+  background-color: #f5f0db;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bg {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: -40px;
+}
+
+.container-btn {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+
+#descubra-btn {
+  border-radius: 10px;
+  border-color: #29add4;
+  background-color: #29add4;
+  box-shadow: rgb(44, 44, 44) 3px 3px 2px;
   color: white;
+  font-size: 17px;
 }
 
-.App-link {
-  color: #61dafb;
+#descubra-btn:hover {
+  background-color: #249dc2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#descubra-btn:active {
+  background-color: #1f95b9;
+}
+
+#reserve-btn1 {
+  border-radius: 10px;
+  border-color: #a2a2a2;
+  background-color: #FF5A5F;
+  box-shadow: rgb(44, 44, 44) 3px 3px 2px;
+  color: white;
+  font-size: 17px;
+}
+
+#reserve-btn1:hover {
+  background-color: #e95156;
+}
+
+#reserve-btn1:active {
+  background-color: #dd4e53;
+}
+
+.praia-2 {
+  width: 370px;
+  height: 231px;
+  margin-top: 15px;
+  margin-left: -35px;
+}
+
+.praia-2 img {
+  box-shadow: 4px 4px 10px rgb(44, 44, 44);
+}
+
+.sala-2 {
+  width: 370px;
+  height: 231px;
+  margin-top: 50px;
+  margin-left: 500px;
+}
+
+.sala-2 img {
+  box-shadow: 4px 4px 10px rgb(44, 44, 44);
+}
+
+.sala-3 {
+  width: 370px;
+  height: 231px;
+  margin-top: 15px;
+  margin-left: -35px;
+}
+
+.sala-3 img {
+  box-shadow: 4px 4px 10px rgb(44, 44, 44);
+}
+
+.cozinha {
+  width: 370px;
+  height: 231px;
+  margin-top: 50px;
+  margin-left: 500px;
+}
+
+.cozinha img {
+  box-shadow: 4px 4px 10px rgb(44, 44, 44);
+}
+
+.quarto-casal {
+  width: 370px;
+  height: 231px;
+  margin-top: 15px;
+  margin-left: -35px;
+}
+
+.quarto-casal img {
+  box-shadow: 4px 4px 10px rgb(44, 44, 44);
+}
+
+.quarto-solteiro {
+  width: 370px;
+  height: 231px;
+  margin-top: 50px;
+  margin-left: 500px;
+}
+
+.quarto-solteiro img {
+  box-shadow: 4px 4px 10px rgb(44, 44, 44);
+}
+
+.container-btn {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+
+}
+
+.texto-praia {
+  padding-right: 500px;
+  margin-left: -25px;
+  margin-top: 10px;
+  text-align: start;
+}
+
+.texto-sala2 {
+  margin-left: 500px;
+  margin-top: 10px;
+  margin-bottom: 45px;
+  text-align: start;
+}
+
+.texto-sala3 {
+  padding-right: 500px;
+  margin-left: -25px;
+  margin-top: 10px;
+  text-align: start;
+}
+
+.texto-cozinha {
+  margin-left: 500px;
+  margin-top: 10px;
+  margin-bottom: 45px;
+  text-align: start;
+}
+
+.texto-quarto-casal {
+  padding-right: 500px;
+  margin-left: -25px;
+  margin-top: 10px;
+  text-align: start;
+}
+
+.texto-quarto-solteiro {
+  margin-left: 500px;
+  margin-top: 10px;
+  margin-bottom: -40px;
+  text-align: start;
+}
+
+.container-btn-bottom {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+#reserve-btn-bottom {
+  border-radius: 10px;
+  border-color: #a2a2a2;
+  background-color: #FF5A5F;
+  box-shadow: rgb(44, 44, 44) 3px 3px 2px;
+  color: white;
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+#reserve-btn-bottom:hover {
+  background-color: #e95156;
+}
+
+#reserve-btn-bottom:active {
+  background-color: #dd4e53;
+}
+
+.banner-bx {
+  background: #f5f0db;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
 }
