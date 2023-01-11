@@ -142,10 +142,11 @@ button {
 }
 
 .texto-praia {
-  padding-right: 50%;
+  padding-right: 500px;
   margin-left: -25px;
   margin-top: 10px;
   text-align: start;
+  box-sizing: border-box;
 }
 
 .texto-sala2 {
