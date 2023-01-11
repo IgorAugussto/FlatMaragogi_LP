@@ -1,9 +1,7 @@
 import { Container } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAirbnb } from '@fortawesome/free-brands-svg-icons';
-import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import MyLogo from '../assets/img/logotipo-transparente.png';
-import React, { useState } from 'react';
 
 export const LpHeader = () => {
 
