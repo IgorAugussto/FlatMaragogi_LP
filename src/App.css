@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
+@media (max-width:1550px) {
+  p {
+    font-size: large;
+  }
+}
+
 * {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 body {
-  background-image: linear-gradient(
-      #73C9E1 5%,
-      #f9edc0 15%   
-  );
+  background-image: linear-gradient(#73C9E1 17%,
+      #f9edc0 30%);
 }
 
 button {
@@ -24,6 +28,13 @@ p {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-align: center;
+  text-shadow: 2px 2px 0.5px rgb(44, 44, 44);
+  
+}
+
+.space {
+  margin-top: 3%;
 }
 
 .bg {
@@ -37,24 +48,7 @@ p {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
-  margin-bottom: 80px;
-}
-
-#descubra-btn {
-  border-radius: 10px;
-  border-color: #29add4;
-  background-color: #29add4;
-  box-shadow: rgb(44, 44, 44) 3px 3px 2px;
-  color: white;
-  font-size: 17px;
-}
-
-#descubra-btn:hover {
-  background-color: #249dc2;
-}
-
-#descubra-btn:active {
-  background-color: #1f95b9;
+  margin-bottom: 3%;
 }
 
 #reserve-btn1 {
@@ -72,151 +66,4 @@ p {
 
 #reserve-btn1:active {
   background-color: #dd4e53;
-}
-
-.praia-2 {
- display: flex;
- justify-content: flex-start;
-}
-
-.praia-2 img {
-  box-shadow: 4px 4px 10px rgb(44, 44, 44);
-}
-
-.sala-2 {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 60px;
-}
-
-.sala-2 img {
-  box-shadow: 4px 4px 10px rgb(44, 44, 44);
-}
-
-.sala-3 {
-  display: flex;
- justify-content: flex-start;
-}
-
-.sala-3 img {
-  box-shadow: 4px 4px 10px rgb(44, 44, 44);
-}
-
-.cozinha {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 60px;
-}
-
-.cozinha img {
-  box-shadow: 4px 4px 10px rgb(44, 44, 44);
-}
-
-.quarto-casal {
-  display: flex;
- justify-content: flex-start;
-}
-
-.quarto-casal img {
-  box-shadow: 4px 4px 10px rgb(44, 44, 44);
-}
-
-.quarto-solteiro {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 60px;
-}
-
-.quarto-solteiro img {
-  box-shadow: 4px 4px 10px rgb(44, 44, 44);
-}
-
-.container-btn {
-  display: flex;
-  margin-top: 30px;
-  justify-content: space-around;
-
-}
-
-.texto-praia {
-  padding-right: 36%;
-  padding-left: 2%;
-  margin-right: 12%;
-  margin-left: -2%;
-  margin-top: 2%;
-  text-align: justify;
-}
-
-.texto-sala2 {
-  padding-left: 29%;
-  margin-left: 24%;
-  margin-top: 1%;
-  margin-bottom: 6%;
-  text-align: justify;
-}
-
-.texto-sala3 {
-  padding-right: 36%;
-  padding-left: 2%;
-  margin-right: 12%;
-  margin-left: -2%;
-  margin-top: 2%;
-  text-align: justify;
-}
-
-.texto-cozinha {
-  padding-left: 29%;
-  margin-left: 24%;
-  margin-top: 1%;
-  margin-bottom: 6%;
-  text-align: justify;
-}
-
-.texto-quarto-casal {
-  padding-right: 36%;
-  padding-left: 2%;
-  margin-right: 12%;
-  margin-left: -2%;
-  margin-top: 2%;
-  text-align: justify;
-}
-
-.texto-quarto-solteiro {
-  padding-left: 29%;
-  margin-left: 24%;
-  margin-top: 1%;
-  margin-bottom: 6%;
-  text-align: justify;
-}
-
-.container-btn-bottom {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 15px;
-}
-
-#reserve-btn-bottom {
-  border-radius: 10px;
-  border-color: #a2a2a2;
-  background-color: #FF5A5F;
-  box-shadow: rgb(44, 44, 44) 3px 3px 2px;
-  color: white;
-  font-size: 17px;
-  margin-top: 15px;
-}
-
-#reserve-btn-bottom:hover {
-  background-color: #e95156;
-}
-
-#reserve-btn-bottom:active {
-  background-color: #dd4e53;
-}
-
-.banner-bx {
-  background: #f5f0db;
-  border-radius: 64px;
-  text-align: center;
-  padding: 60px 50px;
-  margin-top: -60px;
 }
